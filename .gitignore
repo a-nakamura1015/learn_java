@@ -1,0 +1,9 @@
+#outフォルダは不要
+out/
+
+#.ideaフォルダは不要
+.idea/
+
+#learn_java.imlファイルは不要
+learn_java.iml
+
