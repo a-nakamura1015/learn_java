@@ -1,5 +1,9 @@
 package chapter_14;
 
-public interface DebugPrintable {
-    void debugPrint();
+interface DebugPrintable {
+    enum Type {
+        NO_ERROR, FILE_ERROR, MEMORY_ERROR,
+    };
+    public static final String PREFIX = "ERROR:";
+    public abstract void debugPrint();
 }
